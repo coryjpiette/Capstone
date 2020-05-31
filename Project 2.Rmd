@@ -1,0 +1,25 @@
+---
+title: 'Capstone Proect 2: Exploratory Data Analysis'
+author: "Cory Piette, "
+date: "May 31, 2020"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Constructing a predictive model for text requires an understanding of the relationship between the applied words, text phrases, and tokens. Project 2's obvjective is to understand and analyze the primary relationships observedin the given text and construct a model accordingly.
+
+_Tasks to accomplish_
+
+1. **Exploratory analysis** - Perform a comprehensive anylsis of the provided data and comprehend the distribution of words and relationship between the words.  
+2. **Understand frequencies of words and word pairs** - Construct visual analyses used to understand variation in the frequencies of words and word pairs provided in the data set.
+
+_Questions to consider_
+
+- What are the distributions of word frequencies?
+- What are the frequencies of 2-gram and 3-gram words in the dataset?
+- How does one evaluate the number or words originating from a foreign language?
+- How many unique words from a frequency-sorted dictionary are required to cover 50% of all word instances in the language? 
+- How can one identify words that may not be in the corpora or a smaller combination of words that can cover the same number of phrases?
